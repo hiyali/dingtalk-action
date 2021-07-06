@@ -1,6 +1,6 @@
 # Dingtalk robot action
 
-![](https://github.com/fifsky/dingtalk-action/workflows/dingtalk/badge.svg)
+![](https://github.com/hiyali/dingtalk-action/workflows/dingtalk/badge.svg)
 
 Github action for sending dingtalk robot messages
 
@@ -8,7 +8,7 @@ Github action for sending dingtalk robot messages
 
 ```yml
 - name: dingtalk robot message
-uses: fifsky/dingtalk-action@master
+uses: hiyali/dingtalk-action@master
 with:
   url: ${{ secrets.DINGTALK_WEBHOOK}}
   type: markdown
@@ -36,7 +36,7 @@ with:
 
 if type is custom, content is dingtalk api json request body,for example
 
-> content: {"msgtype": "text", "text": {"content": "我就是我, 是不一样的烟火"}}
+> content: {"msgtype": "text", "text": {"content": "Hello world"}}
 
 ## Dingtalk robot document
 
