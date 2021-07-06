@@ -8,15 +8,15 @@ Github action for sending dingtalk robot messages
 
 ```yml
 - name: dingtalk robot message
-uses: hiyali/dingtalk-action@master
-with:
-  url: ${{ secrets.DINGTALK_WEBHOOK}}
-  type: markdown
-  content: |
-    # Tips
-    ## Hello
-    > from github action message
-    > ^_^
+  uses: hiyali/dingtalk-action@master
+  with:
+    url: ${{ secrets.DINGTALK_WEBHOOK}}
+    type: markdown
+    content: |
+      # Tips
+      ## Hello
+      > from github action message
+      > ^_^
 ```
 
 🔐 Set your secrets here: `https://github.com/USERNAME/REPO/settings/secrets`.
